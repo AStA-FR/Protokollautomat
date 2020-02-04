@@ -1,0 +1,221 @@
+#+TITLE: AStA-Protokoll
+#+SUBTITLE: Ungenehmigtes Protokoll der Sitzung am
+#+DATE: 22.33.4444
+#+LATEX_CLASS: report
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[ngerman]{babel}
+#+LATEX_HEADER: \usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}
+#+LATEX_HEADER_EXTRA: \setcounter{tocdepth}{1}
+#+LANGUAGE: de
+#+OPTIONS: author:nil d:nil toc:nil
+
+
+:HINWEISE:
+Wir wünschen uns folgendes Sitzungsverhalten, damit die Sitzungen des AStAs angenehm sind und alle zu Wort kommen können:
+- Achte auf deine Körpersprache.
+- Respektiere die Rede- und Sitzungsleitung. Unterstütze sie, wenn sie Unterstützung braucht.
+- Baue aktiv Wissenshierachien ab. Lass Raum für Rückfragen und achte auf Menschen mit weniger Wissen.
+- Zeige anderen Redner*innen Respekt und störe diese nicht.
+- Nimm Rücksicht auf deine Mitmenschen. Der AStA soll ein Schutzraum sein und Diskriminierungen entgegenwirken.
+- Halte dich zurück, sollten Diskussionen emotional eskalieren. Setze auf Deeskalation und konstruktive Zusammenarbeit.
+
+Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
+:END:
+
+
+\tableofcontents
+\pagebreak
+
+# hier beginnt das Protokoll
+
+* Formalia
+- Protokollführung: ::
+- Sitzungsleitung: ::
+# Für die Beschlussfähigkeit werden min. 11 Mitglieder benötigt.
+- Beschlussfähigkeit: :: Mit XX von 11 benötigten Mitgliedern ist die Sitzung nicht beschlussfähig
+# Anwesenheitsliste
+- Anwesende: :: /Antidiskriminierung, BIPoC*, Gender, Regenbogen, Studieren mit familiären Beziehungen, Studieren ohne Hürden, Erasmus und Auslandsstudium, Gegen Antisemitismus, Gegen Faschismus, Hochschulpolitik, Kommunikation und Wissenssicherung, Politische Bildung, PR, Presse, Sozial, Umwelt, Vorstand(C), Vorstand(D), Vorstand(J), Vorstand(L), Präsidium, Finanzstelle/
+# Waren Gäste da?
+- Gäste: :: Keine.
+- Annahme des Protokolls vom XX.XX.XXX: ::
+
+*** Anmerkungen zur TO:
+- 
+
+* Rundlauf / Berichte
+** Antidiskriminierung
+-
+
+** BIPoC*
+-
+
+** Gender
+-
+
+** Regenbogen
+-
+
+** Studieren mit familiären Verpflichtungen
+-
+
+** Studieren ohne Hürden
+-
+
+** Erasmus und Auslandsstudium
+-
+
+** Gegen Antisemitismus
+-
+
+** Gegen Faschismus
+-
+
+** Hochschulpolitik
+-
+
+** Kommunikation und Wissenssicherung
+-
+
+** Lehramt
+-
+
+** Politische Bildung
+-
+
+** PR
+-
+
+** Presse
+-
+
+** Sozialreferat
+-
+
+** Umwelt
+-
+
+
+** Vorstand
+-
+
+** StuRa-Präsidium
+-
+
+** Sekki 
+-
+
+** Finanzstelle
+-
+
+
+* Bewerbungen :noexport:
+
+* Raumanträge
+
+** Titel
+
++ Gruppe: ::
++ Raum: ::
++ Termin: ::
++ Veranstaltung: ::
++ Erklärung: ::
+
+*** Diskussion:
+- 
+
+*** Abstimmung #:
+(j/n/e) (#/#/#) => Der Antrag ist angenommen.|Der Antrag wurde abgelehnt.
+
+
+* Finanzanträge
+
+** Titel
+
++ Antragssteller*innen: ::
++ Betrag: ::
++ Erklärung: ::
+    
+*** Diskussion:
+- 
+
+*** Abstimmung #:
+(j/n/e) (#/#/#) => Es wurden #€ bewilligt.|Der Antrag wurde abgelehnt.
+
+
+* Planung und Diskussion
+
+** Titel
+:DISKUSSIONSZEIT:
+Wie lange soll die Diskussion etwa dauern? ## Min
+:END:
+
+
+* Sonstiges
+
+** Titel
+
+* Termine
+- <Datum> <Uhrzeit>, <Ort> :: <weitere Infos>
+
+
+\vspace{1.5cm}
+=ENDE: XX:XX Uhr=
+
+# Ab hier ist alles nicht mehr im Protokoll. Entsprechend muss auch nicht mitgeschrieben werden :)
+* Feedbackrunde                                                    :noexport:
+  
+* Orga                                                             :noexport:
+    Hier stehen Dinge, die man für die Orga braucht. Tauchen nicht im Protokoll auf, und müssen fast nur vom Vorstand angefasst werden.
+    
+** Protokoll
+
+Wer schreibt hauptsächlich in der Sitzung mit? Nach oben kopieren, dann hier in die letzte Zeile stellen
+
+
+Aus dem Pad der letzten Sitzung übernehmen!
+
+
+** Sitzungs- und Redeleitung
+
+Leitet die Sitzung und führt die Redeliste. Wird gleich gehandhabt wie beim Protokoll.
+Wichtig: Protokoll und Redeliste sind nicht in Personalunion. Wenn es hier eine Kollission gibt, wird der nächste Punkt der Liste genommen.
+
+Aus dem Pad der letzten Sitzung übernehmen!
+
+
+** Vorlagen
+
+How to Vorlage: Die benötigte Vorlage an die entsprechende Stelle oben kopieren und dort ausfüllen.
+
+*** Raumanträge
+
+** Titel
+
++ Gruppe: ::
++ Raum: ::
++ Termin: ::
++ Veranstaltung: ::
++ Erklärung: ::
+
+*** Diskussion:
+- 
+
+*** Abstimmung #:
+(j/n/e) (#/#/#) => Der Antrag ist angenommen.|Der Antrag wurde abgelehnt.
+
+
+*** Finanzanträge
+
+** Titel
+
++ Antragssteller*innen: ::
++ Betrag: ::
++ Erklärung: ::
+    
+*** Diskussion:
+- 
+
+*** Abstimmung #:
+(j/n/e) (#/#/#) => Es wurden #€ bewilligt.|Der Antrag wurde abgelehnt.
+    
+    

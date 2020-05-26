@@ -50,6 +50,7 @@ function cleanup {
 # The main!
 # Here happens everything!
 init $1
+replace_absences
 replace_results
 generate_output
 

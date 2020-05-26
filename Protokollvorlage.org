@@ -35,6 +35,7 @@ Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
 # Anwesenheitsliste, nicht anwesende bitte löschen.
 - Anwesende: :: /Antidiskriminierung, BIPoC*, Gender, Regenbogen, Studieren mit familiären Beziehungen, Studieren ohne Hürden, Erasmus und Auslandsstudium, Gegen Antisemitismus, Gegen Faschismus, Hochschulpolitik, Kommunikation und Wissenssicherung, Politische Bildung, PR, Presse, Sozial, Umwelt, Vorstand(C), Vorstand(D), Vorstand(J), Vorstand(L), Präsidium, Finanzstelle/
 - Gäste: :: /Keine./
+- Unbesetzte Referate :: /Außenreferat, Datenschutz, Kulturreferat, Tierrechte/
 - Annahme des Protokolls vom XX.XX.XXX: :: Ohne Anmerkungen angenommen.|Mit den folgenden Änderungen angenommen:
   - !Wenn keine Anmerkungen: Diese Zeile löschen!
 

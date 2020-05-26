@@ -27,12 +27,21 @@ function replace_results {
     sed -i "s,(j/n/e) (\([0-9]*\)/\([0-9]*\)/\([0-9]*\)) => \(.*\),| j | n | e | Ergebnis: |\n| \1 | \2 | \3 | \4 |\n," "$INPUTFILE"
 }
 
+function replace_absences {
+    # Streamlining.
+    # They just weren't there.
+    sed -i "s,- n/a,- Nicht anwesend." "$INPUTFILE"
+    # They provided a valid reason for not being there.
+    sed -i "s,- ent,- Entschuldigt." "$INPUTFILE"
+}
+
 function generate_output {
     # Generate the pdf-output with pandoc.
     pandoc -s $INPUTFILE -o $BNAME.pdf
 }
 
 function cleanup {
+    true
     # If everythign worked out fine, remove the .bak file from above
     # also open the pdf and ask if everything is alright or rollback
     # Something for the future!

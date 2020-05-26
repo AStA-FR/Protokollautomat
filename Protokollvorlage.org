@@ -31,68 +31,67 @@ Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
 * Formalia
 - Protokollführung: ::
 - Sitzungsleitung: ::
-# Für die Beschlussfähigkeit werden min. 11 Mitglieder benötigt.
 - Beschlussfähigkeit: :: Mit XX von 11 benötigten Mitgliedern ist die Sitzung nicht beschlussfähig
-# Anwesenheitsliste
+# Anwesenheitsliste, nicht anwesende bitte löschen.
 - Anwesende: :: /Antidiskriminierung, BIPoC*, Gender, Regenbogen, Studieren mit familiären Beziehungen, Studieren ohne Hürden, Erasmus und Auslandsstudium, Gegen Antisemitismus, Gegen Faschismus, Hochschulpolitik, Kommunikation und Wissenssicherung, Politische Bildung, PR, Presse, Sozial, Umwelt, Vorstand(C), Vorstand(D), Vorstand(J), Vorstand(L), Präsidium, Finanzstelle/
-# Waren Gäste da?
-- Gäste: :: Keine.
-- Annahme des Protokolls vom XX.XX.XXX: ::
+- Gäste: :: /Keine./
+- Annahme des Protokolls vom XX.XX.XXX: :: Ohne Anmerkungen angenommen.|Mit den folgenden Änderungen angenommen:
+  - !Wenn keine Anmerkungen: Diese Zeile löschen!
 
 *** Anmerkungen zur TO:
-- 
+- /Keine./
 
 * Rundlauf / Berichte
 ** Antidiskriminierung
--
+- n/a
 
 ** BIPoC*
--
+- n/a
 
 ** Gender
--
+- n/a
 
 ** Regenbogen
--
+- n/a
 
 ** Studieren mit familiären Verpflichtungen
--
+- n/a
 
 ** Studieren ohne Hürden
--
+- n/a
 
 ** Erasmus und Auslandsstudium
--
+- n/a
 
 ** Gegen Antisemitismus
--
+- n/a
 
 ** Gegen Faschismus
--
+- n/a
 
 ** Hochschulpolitik
--
+- n/a
 
 ** Kommunikation und Wissenssicherung
--
+- n/a
 
 ** Lehramt
--
+- n/a
 
 ** Politische Bildung
--
+- n/a
 
 ** PR
--
+- n/a
 
 ** Presse
--
+- n/a
 
 ** Sozialreferat
--
+- n/a
 
 ** Umwelt
--
+- n/a
 
 
 ** Vorstand
@@ -101,10 +100,10 @@ Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
 ** StuRa-Präsidium
 -
 
-** Sekki 
+** Sekki :noexport:
 -
 
-** Finanzstelle
+** Finanzstelle :noexport:
 -
 
 
@@ -112,16 +111,15 @@ Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
 
 * Raumanträge
 
-** Titel
+** <Titel>
 
 + Gruppe: ::
 + Raum: ::
 + Termin: ::
-+ Veranstaltung: ::
 + Erklärung: ::
 
 *** Diskussion:
-- 
+- /Keine./
 
 *** Abstimmung #:
 (j/n/e) (#/#/#) => Der Antrag ist angenommen.|Der Antrag wurde abgelehnt.
@@ -129,14 +127,14 @@ Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
 
 * Finanzanträge
 
-** Titel
+** <Titel>
 
 + Antragssteller*innen: ::
 + Betrag: ::
 + Erklärung: ::
     
 *** Diskussion:
-- 
+- /Keine./
 
 *** Abstimmung #:
 (j/n/e) (#/#/#) => Es wurden #€ bewilligt.|Der Antrag wurde abgelehnt.
@@ -144,15 +142,17 @@ Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
 
 * Planung und Diskussion
 
-** Titel
+** <Titel>
 :DISKUSSIONSZEIT:
 Wie lange soll die Diskussion etwa dauern? ## Min
 :END:
+*** Beschreibung
 
+*** Diskussion
 
 * Sonstiges
 
-** Titel
+** <Titel>
 
 * Termine
 - <Datum> <Uhrzeit>, <Ort> :: <weitere Infos>
@@ -182,40 +182,3 @@ Wichtig: Protokoll und Redeliste sind nicht in Personalunion. Wenn es hier eine 
 
 Aus dem Pad der letzten Sitzung übernehmen!
 
-
-** Vorlagen
-
-How to Vorlage: Die benötigte Vorlage an die entsprechende Stelle oben kopieren und dort ausfüllen.
-
-*** Raumanträge
-
-** Titel
-
-+ Gruppe: ::
-+ Raum: ::
-+ Termin: ::
-+ Veranstaltung: ::
-+ Erklärung: ::
-
-*** Diskussion:
-- 
-
-*** Abstimmung #:
-(j/n/e) (#/#/#) => Der Antrag ist angenommen.|Der Antrag wurde abgelehnt.
-
-
-*** Finanzanträge
-
-** Titel
-
-+ Antragssteller*innen: ::
-+ Betrag: ::
-+ Erklärung: ::
-    
-*** Diskussion:
-- 
-
-*** Abstimmung #:
-(j/n/e) (#/#/#) => Es wurden #€ bewilligt.|Der Antrag wurde abgelehnt.
-    
-    

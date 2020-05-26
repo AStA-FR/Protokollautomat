@@ -111,7 +111,7 @@ Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
 
 * Raumanträge
 
-** <Titel>
+** <Titel (denkt euch bitte was aus)>
 
 + Gruppe: ::
 + Raum: ::
@@ -127,7 +127,7 @@ Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
 
 * Finanzanträge
 
-** <Titel>
+** <Titel (denkt euch bitte was aus)>
 
 + Antragssteller*innen: ::
 + Betrag: ::

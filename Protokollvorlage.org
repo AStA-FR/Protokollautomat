@@ -41,7 +41,7 @@ Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
 *** Anmerkungen zur TO:
 - /Keine./
 
-* Rundlauf / Berichte
+* Berichte 
 ** Antidiskriminierung
 - n/a
 
@@ -93,7 +93,7 @@ Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
 ** Umwelt
 - n/a
 
-
+  
 ** Vorstand
 -
 
@@ -141,7 +141,7 @@ Link zum anonymen Fragen und Kummerkastenpad: https://pads.ccc.de/ffks3jTpji
 
 
 * Planung und Diskussion
-
+  
 ** <Titel>
 :DISKUSSIONSZEIT:
 Wie lange soll die Diskussion etwa dauern? ## Min

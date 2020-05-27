@@ -1,0 +1,12 @@
+Anleitung
+=========
+
+In der Dateiverwaltung zum Ordner mit den Protokollen navigieren.
+
+Im Ordner auf eine freie Fläche einen Rechtsklick ausführen und "Terminal hier öffnen" auswählen.
+
+Im Terminal "./AStA-Protokoll_Gen.sh Name_der_Protokolldatei.org" eingeben
+
+Warten
+
+Freude über das schöne Protokoll verkünden.

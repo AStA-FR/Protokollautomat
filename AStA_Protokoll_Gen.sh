@@ -64,4 +64,6 @@ replace_absences
 replace_results
 generate_output
 
+xdg-open $BNAME.pdf
+
 printf 'Fertig.\nTschüssle!\n'

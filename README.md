@@ -16,7 +16,10 @@ Dieses Repository mit
 ```
 git clone 
 ```
-kopieren oder die EDV fragen.
+kopieren oder 
+```
+die EDV fragen.
+```
 
 ## Dependencys
 

@@ -40,7 +40,7 @@ function replace_absences {
 function replace_broken_stuff {
     # Helluvalot is fecked.
     # Quotation marks
-    sed -i "s,\",'',"
+    sed -i "s,\",''," "$INPUTFILE"
 }
 
 function generate_output {

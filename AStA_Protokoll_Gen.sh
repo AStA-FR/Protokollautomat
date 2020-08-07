@@ -30,11 +30,15 @@ function replace_results {
 
 function replace_absences {
     # Streamlining.
-    printf "(Un)entschuldigte Abwesenheiten werden eingetragen.\n"
+    printf "(Un)entschuldigte Abwesenheiten, Neuigkeitenlosigkeit und Nichtbesetzungen werden eingetragen.\n"
     # They just weren't there.
-    sed -i "s,- n/a,- Nicht anwesend.," "$INPUTFILE"
+    sed -i "s,- n/a$,- Nicht anwesend.," "$INPUTFILE"
     # They provided a valid reason for not being there.
-    sed -i "s,- ent,- Entschuldigt.," "$INPUTFILE"
+    sed -i "s,- ent$,- Entschuldigt.," "$INPUTFILE"
+    # Not filled position
+    sed -i "s,- n/b$,- Nicht besetzt.," "$INPUTFILE"
+    # Nothing new to report
+    sed -i "s,- n/n$,- Nichts neues.," "$INPUTFILE"
 }
 
 function replace_broken_stuff {

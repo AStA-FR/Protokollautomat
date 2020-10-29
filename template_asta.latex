@@ -1,0 +1,232 @@
+%!TEX TS-program = lualatex
+\documentclass[12pt]{scrreport}  
+\usepackage{amsmath}
+\usepackage[ngerman]{babel}
+\usepackage{geometry}
+\geometry{verbose,a4paper,tmargin=3cm,bmargin=4cm,lmargin=3cm,rmargin=3cm}
+\usepackage{fontspec}
+
+\setmainfont{Liberation Serif}
+
+% \setmainfont{Times Roman}
+
+\setkomafont{title}{\rmfamily\bfseries\upshape\normalsize}
+\setkomafont{sectioning}{\rmfamily\bfseries\upshape\normalsize}
+\setkomafont{descriptionlabel}{\rmfamily\bfseries\upshape\normalsize}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+
+\pagestyle{plain}
+
+% Footnotes
+% if you have code in your footnotes, the million macro march 
+% kind of bumps into itself.
+% Pandoc, having just rendered your text into LaTeX, 
+% knows whether the 'variable' `verbatim-in-note` is True, and 
+% If it is, it asks for a  LaTeX package that solves the dilemma:
+$if(verbatim-in-note)$
+\usepackage{fancyvrb}
+$endif$
+
+% Lists formatting: 
+% note sure what 'fancy enums' are; something to do with lists, 
+% as the further comment suggests: 
+$if(fancy-enums)$
+% -- Redefine labelwidth for lists; otherwise, the enumerate package will cause
+% -- markers to extend beyond the left margin.
+\makeatletter\AtBeginDocument{%
+  \renewcommand{\@listi}
+    {\setlength{\labelwidth}{4em}}
+}\makeatother
+\usepackage{enumerate}
+$endif$
+
+
+$if(tables)$
+\usepackage{array}
+
+% -- This is needed because raggedright in table elements redefines \\:
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+\let\PBS=\PreserveBackslash
+
+$endif$
+
+$if(subscript)$
+\newcommand{\textsubscr}[1]{\ensuremath{_{\scriptsize\textrm{#1}}}}
+$endif$
+
+\usepackage[breaklinks=true]{hyperref}
+\hypersetup{colorlinks,%
+citecolor=black,%
+filecolor=black,%
+linkcolor=black,%
+urlcolor=black}
+$if(url)$
+\usepackage{url}
+$endif$
+
+
+\usepackage{graphicx}
+$if(graphics)$
+% -- We will generate all images so they have a width \maxwidth. This means
+% -- that they will get their normal width if they fit onto the page, but
+% -- are scaled down if they would overflow the margins.
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+\else\Gin@nat@width\fi}
+\makeatother
+\let\Oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+$endif$
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+$if(numbersections)$
+$else$
+\setcounter{secnumdepth}{0}
+$endif$
+
+% Footnotes: 
+% Wait, didn't we already discuss the crisis of code in footnotes?  
+% Evidently the order of unfolding of macros required that
+% we import a package to deal with them earlier
+% and issue a command it defines now. (Or maybe that's not the reason;
+% very often the order does matter as the insane system of macro expansion
+% must take place by stages.)
+$if(verbatim-in-note)$
+\VerbatimFootnotes % -- allows verbatim text in footnotes
+$endif$
+
+% Other stuff you specify on the command line:
+% You can include stuff for the header from a file specified on the command line;
+% I've never done this, but that stuff will go here:
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+% Title, authors, date.
+% If you specified title authors and date at the start of 
+% your pandoc-markdown file, pandoc knows the 'values' of the
+% variables: title authors date and fills them in.
+
+% Titel ist immer gleich.
+\subject{Allgemeiner Studierendenausschuss\\ der Albert-Ludwigs-Universität Freiburg}
+\title{Protokoll}
+$if(date)$
+  \subtitle{Der Sitzung am $date$}
+$else$
+  \subtitle{SITZUNGSDATUM FEHLT!}
+$endif$
+$if(genehmigung.genehmigt)$
+\author{Genehmigt am $genehmigung.genehmigtam$}
+$else$
+\author{Ungenehmigt}
+$endif$
+\date{\vspace{3cm}\includegraphics[width=.5\textwidth]{logo}}
+
+% At last: 
+% The document itself!:
+
+% After filling in all these blanks above, or erasing them 
+% where they are not needed, Pandoc has finished writing the 
+% famous LaTeX *preamble* for your document.
+% Now comes the all-important command \begin{document}
+% which as you can see, will be paired with an \end{document} at the end.
+% Pandoc knows whether you have a title, and has already
+% specified what it is; if so, it demands that the title be rendered.  
+% Pandoc knows whether you want a table of contents, you
+% specify this on the command line.
+% Then, after fiddling with alignments, there comes the real
+% business: pandoc slaps its rendering of your text in the place of
+% the variable `body`
+% It then concludes the document it has been writing. 
+
+\begin{document}
+
+\maketitle
+\pagestyle{empty}
+\pagebreak
+
+
+\pagestyle{plain}
+\pagenumbering{Roman}
+
+\tableofcontents
+\pagebreak
+
+\pagenumbering{arabic}
+
+
+%$if(alignment)$
+%\begin{$alignment$}
+%$endif$
+
+\section{Protokoll der AStA-Sitzung am $date$}
+
+$if(hinweise)$
+\textbf{Hinweis(e):}\\
+$hinweise$
+$endif$
+
+\paragraph{Datum und Uhrzeit der Sitzung:}~\\
+\textbf{Datum:} $date$\\
+\textbf{Sitzungsbeginn:} $sitzung.anfang$\\
+\textbf{Sitzungsende:} $sitzung.ende$
+
+\paragraph{Beschlussfähigkeit:}
+Zum Zeitpunkt des Sitzungsbeginns ist die Sitzung mit
+$beschlussfaehigkeit.anwesend$ von $beschlussfaehigkeit.benoetigte$ zur
+Beschlussfähigkeit benötigten Anwesenden
+$if(beschlussfaehigkeit.beschlussfaehig)$
+\textbf{beschlussfähig}%
+$else$
+\textbf{nicht beschlussfähig}%
+$endif$.
+
+\paragraph{Sitzungs- und Protokollführung:}~\\
+\textbf{Sitzungsleitung:} $sitzung.redeleitung$
+\textbf{Protokollführung:} $sitzung.protokoll$
+  
+
+\paragraph{Anwesende:}~\\
+\textbf{Referate:}
+$if(anwesende.referate)$
+$for(anwesende.referate)$$anwesende.referate$$sep$, $endfor$
+$else$
+Kein*e Referent*in war anwesend.
+$endif$\\
+\textbf{Vorstand:}
+$if(anwesende.vorstand)$
+$for(anwesende.vorstand)$$anwesende.vorstand$$sep$, $endfor$
+$else$
+Kein Mitglied des Vorstandes war anwesend.
+$endif$\\
+\textbf{Präsidium:}
+$if(anwesende.praesidium)$
+$for(anwesende.praesidium)$$anwesende.praesidium$$sep$, $endfor$
+$else$
+Kein Mitglied des Präsidiums war anwesend.
+$endif$\\
+\textbf{Gäste:}
+$if(anwesende.gaeste)$
+$for(anwesende.gaeste)$$anwesende.gaeste$$sep$, $endfor$
+$else$
+Keine*r Referent*in war anwesend.
+$endif$\\
+
+
+$if(unbesetzt)$
+Die folgenden Referate sind momentan unbesetzt:\\
+$for(unbesetzt)$$unbesetzt$$sep$, $endfor$
+$endif$
+
+$body$
+
+%$if(alignment)$
+%end{$alignment$}
+%$endif$
+
+
+\end{document}

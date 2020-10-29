@@ -50,7 +50,7 @@ function replace_broken_stuff {
 function generate_output {
     # Generate the pdf-output with pandoc.
     printf "Das Protokoll wird erstellt...\n"
-    pandoc -s $INPUTFILE -o $BNAME.pdf
+    pandoc -s --pdf-engine=lualatex --template=template_asta.latex $INPUTFILE -o $BNAME.pdf
 }
 
 function cleanup {
